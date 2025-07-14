@@ -71,7 +71,7 @@ AWS_SECRET_ACCESS_KEY
 
 INFRACOST_API_KEY  ---copy from infracost.io ->organizations->API Token
 
-MYSQL_ADMIN_PASSWORD  ---you can give any name I gave password@123
+MYSQL_ADMIN_PASSWORD  ---you can give any name I gave password123
 
 # Environments
 We need to add total four environments that is dev,prod and dev-plan,prod-plan. to avoid manuall reviewer approval for stage branch plan pipeline I used these two envronments(dev-plan and prod-plan) here we are not selecting any reviewer under deployment reviewer.
